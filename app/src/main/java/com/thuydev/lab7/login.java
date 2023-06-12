@@ -105,7 +105,9 @@ public class login extends AppCompatActivity {
         setContentView(R.layout.login);
 
 
-
+        if(Acc.size()<=0){
+            Acc.add(new User("jhágfkýgdfkjhsdfjhshjfsd","sdhgfúgdfuhskdbfsdfds"));
+        }
         EditText user = findViewById(R.id.et_username);
         EditText pass = findViewById(R.id.et_password);
         Button btnLogin = findViewById(R.id.btn_login);
