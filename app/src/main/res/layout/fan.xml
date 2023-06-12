@@ -11,14 +11,15 @@
         android:text="Đã login"
         android:textColor="#00FFE7"
         android:textSize="30dp"
+
         android:textStyle="bold" />
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_on"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/btn_bg"
         android:text="Run"
-        android:textSize="30dp" />
+        android:textSize="30dp"/>
 
 
 

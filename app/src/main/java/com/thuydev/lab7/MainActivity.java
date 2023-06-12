@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                         throw new RuntimeException(e);
                     }
                     if(time==1){
-                        Intent intent = new Intent(MainActivity.this,login.class);
+                        Intent intent = new Intent(MainActivity.this, login.class);
                         startActivity(intent);
                     }
                     time++;

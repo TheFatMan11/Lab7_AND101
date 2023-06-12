@@ -1,8 +1,6 @@
 package com.thuydev.lab7;
 
 import android.os.Bundle;
-import android.os.PersistableBundle;
-import android.util.Log;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -13,14 +11,14 @@ import android.widget.ImageView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class login extends AppCompatActivity {
+public class fan extends AppCompatActivity {
     ImageView fan;
     Animation animation;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login);
+        setContentView(R.layout.fan);
         Button btnRun = findViewById(R.id.btn_on);
         Button btnMin = findViewById(R.id.btn_min);
         Button btnMedium = findViewById(R.id.btn_medium);

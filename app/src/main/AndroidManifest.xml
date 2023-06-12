@@ -21,7 +21,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".fan"
+            android:exported="false"></activity>
         <activity android:name=".login"
+            android:exported="false"></activity>
+        <activity android:name=".sigin"
+            android:exported="false"></activity>
+        <activity android:name=".Activity_SV"
+            android:exported="false"></activity>
+
+        <activity android:name=".ThemSV"
             android:exported="false"></activity>
     </application>
 
